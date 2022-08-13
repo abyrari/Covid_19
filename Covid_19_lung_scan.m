@@ -5,7 +5,7 @@ clc
 clear all
 close all
 
-path='D:\MATLAB\Matlab tajhiz teb\Covid_19 lung CT scan\CT_Covid19\*.png';
+path='images';
 file=dir(path);
 
     for     i=1:length(file);
